@@ -1,0 +1,11 @@
+.topnavbar__body {
+    padding: 8px 18px;
+}
+
+.topnav__img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 9999px;
+}

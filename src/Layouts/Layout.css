@@ -63,7 +63,8 @@
   .topnavbar {
     display: inline-block;
     position: fixed;
-    background-color: purple;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e6e6e6;
     width: 100%;
     top: 0;
     
