@@ -1,0 +1,23 @@
+.bottombar {
+    padding: 15px 15px;
+}
+
+.bottombar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottombar__icon {
+    width: 23px;
+    height: 23px;
+}
+
+.bottombar-item {
+    padding: 5px 5px;
+}
+
+.bottombar-item:hover {
+    background-color: #f5f5f5;
+    border-radius: 9999px;
+}
