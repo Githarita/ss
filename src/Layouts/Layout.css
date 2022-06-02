@@ -21,6 +21,10 @@
   display: none;
 }
 
+.topnavbar--hide {
+  display: none;
+}
+
 .topnavbar {
   display: none;
 }
@@ -61,6 +65,13 @@
 
   .topnavbar--hide {
     display: none;
+    position: fixed;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e6e6e6;
+    width: 100%;
+    top: 0;
+    transition-timing-function: ease-in;
+    transition: all 1s;
   }
 
   .topnavbar {
