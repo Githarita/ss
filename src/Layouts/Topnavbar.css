@@ -1,5 +1,9 @@
 .topnavbar__body {
   padding: 8px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
 }
 
 .topnav__img {
@@ -10,6 +14,16 @@
   border-radius: 9999px;
 }
 
+.topnav__iconn {
+  width: 22px;
+  height: 22px;
+  fill: #0f1419;
+}
+
+.topnav__iconn:hover {
+  background-color: #f5f5f5;
+  border-radius: 9999px;
+}
 .bottomsheet__body {
   position: fixed;
   bottom: 0;

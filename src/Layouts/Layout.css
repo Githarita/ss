@@ -79,7 +79,7 @@
   }
 
   .topnavbar {
-    display: inline-block;
+    display: block;
     position: fixed;
     background-color: #ffffff;
     border-bottom: 1px solid #e6e6e6;
