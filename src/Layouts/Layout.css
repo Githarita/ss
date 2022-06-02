@@ -60,6 +60,10 @@
     margin-top: 1.5rem;
   }
 
+  .topnavbar--hide {
+    display: none;
+  }
+
   .topnavbar {
     display: inline-block;
     position: fixed;
