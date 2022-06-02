@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./Layout.css";
 import "./Topnavbar.css";
 function Topnavbar() {
-  const [show, handleShow] = useState(false);
   const [hidenav, setHideNav] = useState("topnavbar");
 
   useEffect(() => {
