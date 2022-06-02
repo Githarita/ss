@@ -16,15 +16,12 @@ function Topnavbar() {
   };
 
   useEffect(() => {
-    let lastScrollY = window.scrollY;
     window.addEventListener("scroll", () => {
-      if (lastScrollY < window.scrollY) {
+      if ( window.scrollY > 100) {
         setHideNav("topnavbar");
       } else {
         setHideNav("topnavbar--hide");
       }
-
-      lastScrollY = window.scrollY;
     });
   });
   return (
