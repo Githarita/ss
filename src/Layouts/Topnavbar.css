@@ -74,12 +74,14 @@
 
 .bottomsheet__linkname {
   font-size: 12px;
+  font-weight: 300;
+  margin-top: 2px;
   color: #999;
 }
 
 .bottomsheet__icon_name {
   font-size: 15px;
-  color: #0f1419;
+  color: #536471
 }
 
 @-webkit-keyframes slideIn {
