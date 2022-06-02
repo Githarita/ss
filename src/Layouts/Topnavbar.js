@@ -8,9 +8,9 @@ function Topnavbar() {
     let lastScrollY = window.scrollY;
     window.addEventListener("scroll", () => {
       if (lastScrollY < window.scrollY) {
-       setHideNav("topnavbar--hide");
+       setHideNav("topnavbar"); 
       } else {
-        setHideNav("topnavbar"); 
+        setHideNav("topnavbar--hide");
       }
 
       lastScrollY = window.scrollY;
