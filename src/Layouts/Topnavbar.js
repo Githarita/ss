@@ -46,7 +46,9 @@ function Topnavbar() {
         onClick={() => closeModal()}
       >
         <div className="bottomsheet__body">
-          <div class="modal-header">
+          <div className="bottomrec"></div>
+          <div className="bottomsheet__content">
+            <div class="modal-header">
             <h2>Modal Header</h2>
           </div>
           <div class="modal-body">
@@ -56,6 +58,8 @@ function Topnavbar() {
           <div class="modal-footer">
             <h3>Modal Footer</h3>
           </div>
+          </div>
+          
         </div>
       </div>
     </>
