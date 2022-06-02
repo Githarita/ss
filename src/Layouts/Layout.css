@@ -71,7 +71,7 @@
     width: 100%;
     top: 0;
     transition-timing-function: ease-in;
-    transition: all 1s;
+    transition: all 5s;
   }
 
   .topnavbar {
@@ -82,7 +82,7 @@
     width: 100%;
     top: 0;
     transition-timing-function: ease-in;
-    transition: all 1s;
+    transition: all 5s;
   }
 
   .sidebar {
