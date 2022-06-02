@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Layout.css";
 import "./Topnavbar.css";
 function Topnavbar() {
-  const [hidenav, setHideNav] = useState("topnavbar");
+  const [hidenav, setHideNav] = useState("topnavbar--hide");
 
   useEffect(() => {
     let lastScrollY = window.scrollY;

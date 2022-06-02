@@ -12,7 +12,7 @@ function Homepage() {
       <Topnavbar />
       <Sidebar />
       <Body>
-        <p style={{padding: "15px 10px"}}>
+        <p style={{padding: "0px 10px"}}>
           THERE was once a sculptor, named Alfred, who having won the large gold
           medal and obtained a travelling scholarship, went to Italy, and then
           came back to his native land. He was young at that time- indeed, he is
