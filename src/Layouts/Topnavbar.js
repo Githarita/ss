@@ -2,15 +2,15 @@ import React, { useEffect, useState } from "react";
 import "./Layout.css";
 import "./Topnavbar.css";
 function Topnavbar() {
-  const [hidenav, setHideNav] = useState("topnavbar--hide");
+  const [hidenav, setHideNav] = useState("topnavbar");
 
   useEffect(() => {
     let lastScrollY = window.scrollY;
     window.addEventListener("scroll", () => {
       if (lastScrollY < window.scrollY) {
-        setHideNav("topnavbar");
+       setHideNav("topnavbar--hide");
       } else {
-        setHideNav("topnavbar--hide");
+        setHideNav("topnavbar"); 
       }
 
       lastScrollY = window.scrollY;
