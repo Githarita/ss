@@ -26,7 +26,7 @@ function Topnavbar() {
   });
   return (
     <>
-      <div className={`${hidenav}`}>
+      <div className="topnavbar">
         <div className="topnavbar__body">
           <div className="topnavbar__img" >
             <img
