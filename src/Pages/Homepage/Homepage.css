@@ -143,6 +143,10 @@
     padding: 0px 15px;
   }
 
+  .homepage__section {
+    padding-bottom: 1rem;
+  }
+
   .search__form {
     display: none;
   }
