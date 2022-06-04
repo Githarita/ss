@@ -80,7 +80,8 @@
   width: 100%;
   display: flex;
   overflow-x: scroll;
-  gap: 0.5rem;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
 }
 
 .products__wrapper .item {
@@ -88,7 +89,7 @@
   height: 352px;
   display: grid;
   justify-content: space-between;
-  border-radius: 1px;
+  border-left: 1px solid #111;
   /* border-right: px solid #e6e6e6; */
 }
 
@@ -160,7 +161,7 @@
     height: 270px;
     display: grid;
     justify-content: space-between;
-    /* border-left: 1px solid #e6e6e6; */
+    border-left: 1px solid #111;
     /* border-right: px solid #e6e6e6; */
   }
   
