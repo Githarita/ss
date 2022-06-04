@@ -67,6 +67,16 @@
     grid-template-columns: 1fr;
     margin: 0;
   }
+  .topnavbar {
+    display: block;
+    position: fixed;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+    width: 100%;
+    top: 0;
+    transition-timing-function: ease-in;
+    transition: all 0.2s;
+  }
 
   .topnavbar--hide {
     display: none;
@@ -76,18 +86,7 @@
     width: 100%;
     top: 0;
     transition-timing-function: ease-in;
-    transition: all 5s;
-  }
-
-  .topnavbar {
-    display: block;
-    position: fixed;
-    background-color: #ffffff;
-    border-bottom: 1px solid #e5e5e5;
-    width: 100%;
-    top: 0;
-    transition-timing-function: ease-in;
-    transition: all 5s;
+    transition: all 0.2s;
   }
 
   .sidebar {
