@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "./Layout.css";
 import "./Topnavbar.css";
-import image1 from "../../assets/shoe1.png";
-import image2 from "../../assets/shoe2.png";
-import image3 from "../../assets/shoe3.png";
-import image4 from "../../assets/nft1.png";
-import image5 from "../../assets/nft2.png";
+// import image1 from "../../assets/shoe1.png";
+// import image2 from "../../assets/shoe2.png";
+// import image3 from "../../assets/shoe3.png";
+// import image4 from "../../assets/nft1.png";
+// import image5 from "../../assets/nft2.png";
 function BottomSheet() {
   const [hidenav, setHideNav] = useState("topnavbar");
 
@@ -13,7 +13,7 @@ function BottomSheet() {
     let lastScrollY = window.scrollY;
     window.addEventListener("scroll", () => {
       if (lastScrollY < window.scrollY) {
-       setHideNav("topnavbar"); 
+        setHideNav("topnavbar");
       } else {
         setHideNav("topnavbar--hide");
       }
@@ -31,45 +31,43 @@ function BottomSheet() {
             className="topnav__img"
           />
         </div>
-        <section className="p-slider">
+        {/* <section className="p-slider">
               {/* heading */}
-              <div className="product-slider-heading">Product Slider</div>
+        {/* <div className="product-slider-heading">Product Slider</div> */}
 
-              {/* product-box */}
-              <div className="product-box">
+        {/* product-box */}
+        {/* <div className="product-box">
 
                 {/* Discount */}
-            <span className="p-discount">-20%</span>
+        {/* <span className="p-discount">-20%</span> */}
 
-
-                {/* img container */}
-                <div className="p-img-container">
+        {/* img container */}
+        {/* <div className="p-img-container">
                   <div className="p-img">
                     <a href="#">
                       <img src={image1} alt="Front" className="p-img-front" />
                       <img src={image2} alt="Back" className="p-img-back" />
                     </a>
                   </div>
-                </div>
+                </div> */}
 
-                {/* Text */}
-                <div className="p-box-text">
+        {/* Text */}
+        {/* <div className="p-box-text">
                   {/* category   */}
-                  <div className="product-category">
+        {/* <div className="product-category">
                     <span>Air Force 1 </span>
-                  </div>
-                  {/* Title */}
-                  <a href="#" className="product-title">
+                  </div> */}
+        {/* Title */}
+        {/* <a href="#" className="product-title">
                   Nike Dunk Low Retro White Black Panda (2021)
-                  </a>
-                  {/* price buy */}
-                  <div className="price-buy">
+                  </a> */}
+        {/* price buy */}
+        {/* <div className="price-buy">
                     <span className="p-price">1200$</span>
                     <a href="#" className="p-buy-btn">Buy Now</a>
-                  </div>
-                </div>
-              </div>
-            </section>
+                  </div> 
+                </div> 
+            </section> */}
       </div>
     </div>
   );

@@ -12,8 +12,8 @@ import ads3 from "../../assets/ads3.png";
 import image1 from "../../assets/shoe1.png";
 import image2 from "../../assets/shoe2.png";
 import image3 from "../../assets/shoe3.png";
-import image4 from "../../assets/nft1.png";
-import image5 from "../../assets/nft2.png";
+// import image4 from "../../assets/nft1.png";
+// import image5 from "../../assets/nft2.png";
 
 function Homepage() {
   return (
