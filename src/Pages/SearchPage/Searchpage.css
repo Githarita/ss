@@ -1,6 +1,6 @@
-.search__container {
+/* .search__container {
   padding: 15px 15px;
-}
+} */
 
 .searchpage__section {
     height: 100vh;
@@ -28,6 +28,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   grid-gap: 0.5rem;
+  padding: 0 15px 0 15px;
 }
 
 .search_item {
