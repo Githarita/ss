@@ -3,7 +3,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
 }
 
 .topnav__img {
@@ -37,7 +36,6 @@
   animation-duration: 0.4s;
   display: grid;
   gap: 1rem;
-  
 }
 
 .bottomrec {
@@ -50,7 +48,7 @@
 }
 
 .modal-header {
-  border-bottom: 1px solid #111;
+  border-bottom: 1px solid #999;
   padding: 10px 20px;
   margin-bottom: 10px;
 }
