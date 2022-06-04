@@ -50,7 +50,7 @@
   .searchcategory__wrapper {
       
       position: fixed;
-      top: 60px;
+      top: 55px;
       background-color: #fff;
     width: 100%;
     display: flex;
@@ -68,7 +68,7 @@
   }
 
   .searchproducts {
-      margin-top: 3.3rem
+      margin-top: 3.1rem
   }
 
   .search_item {
