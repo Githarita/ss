@@ -1,0 +1,32 @@
+.topsearchnavbar__body {
+    padding: 8px 18px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: min-content auto min-content;
+    gap: 1rem;
+}
+
+.searchnavbar__form {
+  display: flex;
+  background-color: #f5f5f5;
+  border-radius: 9999px;
+  padding: 0.5rem;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.searchnavbar__icon {
+  fill: #999;
+  width: 19px;
+  height: 19px;
+}
+
+.searchnavbar__input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-family: inherit;
+  font-weight: 300;
+  width: 100%;
+}
+

@@ -1,12 +1,13 @@
 import React from "react";
 import "./Layout.css";
 import "./Bottombar.css";
+import { Link } from "react-router-dom";
 
 function Bottombar() {
   return (
     <div className="bottombar">
       <div className="bottombar-content">
-        <div className="bottombar-item">
+        <Link to="/" className="bottombar-item">
           <svg
             className="bottombar__icon"
             viewBox="0 0 15 15"
@@ -18,9 +19,9 @@ function Bottombar() {
               clipRule="evenodd"
             ></path>
           </svg>
-        </div>
+        </Link>
 
-        <div className="bottombar-item">
+        <Link to="/search" className="bottombar-item">
           <svg
             className="bottombar__icon"
             viewBox="0 0 15 15"
@@ -32,7 +33,7 @@ function Bottombar() {
               clipRule="evenodd"
             ></path>
           </svg>
-        </div>
+        </Link>
         {/* <div className="bottombar-item">
           <svg
             className="bottombar__icon"
