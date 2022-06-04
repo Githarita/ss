@@ -43,11 +43,11 @@ function Homepage() {
 
           <div className="homepage__section">
             <div className="letsee">
-              <div className="homepage__advert">
+              {/* <div className="homepage__advert">
                 <img src={ads1} alt="" />
                 <img src={ads2} alt="" />
                 <img src={ads3} alt="" />
-              </div>
+              </div> */}
 
               <div className="section1">
                 <div className="homeproducts__header">
