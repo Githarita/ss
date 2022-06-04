@@ -80,8 +80,7 @@
   width: 100%;
   display: flex;
   overflow-x: scroll;
-  border-top: 1px solid #e6e6e6;
-  border-bottom: 1px solid #e6e6e6;
+  gap: 0.5rem;
 }
 
 .products__wrapper .item {
@@ -89,7 +88,8 @@
   height: 352px;
   display: grid;
   justify-content: space-between;
-  border-left: 1px solid #e6e6e6;
+  border: 1px solid #e6e6e6;
+  border-radius: 1px;
   /* border-right: px solid #e6e6e6; */
 }
 
