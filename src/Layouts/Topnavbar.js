@@ -1,10 +1,24 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import "./Layout.css";
 
 import "./Topnavbar.css";
 function Topnavbar() {
   const [openDisplay, setDisplay] = useState("none");
+  const [hidenav, setHideNav] = useState("topnavbar");
+
+  useEffect(() => {
+    let lastScrollY = window.scrollY;
+    window.addEventListener("scroll", () => {
+      if (lastScrollY < window.scrollY) {
+        setHideNav("topnavbar--hide");
+      } else {
+        setHideNav("topnavbar");
+      }
+
+      lastScrollY = window.scrollY;
+    });
+  });
 
   const openModal = () => {
     setDisplay("block");
@@ -16,7 +30,7 @@ function Topnavbar() {
 
   return (
     <>
-      <div className="topnavbar">
+      <div className={`${hidenav}`}>
         <div className="topnavbar__body">
           <div className="topnavbar__img">
             <img
