@@ -140,11 +140,12 @@
 }
 @media screen and (max-width: 500px) {
   .homepage__container {
-    padding: 0px 15px;
+    padding: 0px 10px;
   }
 
   .homepage__section {
     padding-bottom: 1rem;
+    margin-top: 0;
   }
 
   .search__form {
