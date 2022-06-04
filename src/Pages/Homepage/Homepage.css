@@ -88,7 +88,6 @@
   height: 352px;
   display: grid;
   justify-content: space-between;
-  border: 1px solid #e6e6e6;
   border-radius: 1px;
   /* border-right: px solid #e6e6e6; */
 }
@@ -161,7 +160,7 @@
     height: 270px;
     display: grid;
     justify-content: space-between;
-    border-left: 1px solid #e6e6e6;
+    /* border-left: 1px solid #e6e6e6; */
     /* border-right: px solid #e6e6e6; */
   }
   
