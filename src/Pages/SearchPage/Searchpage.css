@@ -1,0 +1,75 @@
+.search__container {
+  padding: 15px 15px;
+}
+
+.searchpage__section {
+    height: 100vh;
+    overflow-y: scroll;
+    width: 100%;
+    display: grid;
+    align-items: start;
+    padding-bottom: 6rem;
+}
+.searchcategory__wrapper {
+  display: none;
+}
+
+.searchproducts {
+  margin-top: 1rem;
+  height: 100vh;
+  overflow-y: scroll;
+  width: 100%;
+  display: grid;
+  align-items: start;
+  padding-bottom: 6rem;
+}
+
+.search__see {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-gap: 0.5rem;
+}
+
+.search_item {
+  height: 350px;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  width: 100%;
+  height: 352px;
+  display: grid;
+}
+.search_item img {
+  width: 100%;
+  height: 209px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 3px 3px 0 0;
+}
+@media screen and (max-width: 500px) {
+  .searchcategory__wrapper {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    overflow-x: scroll;
+    border-bottom: 2px solid #e6e6e6;
+    padding: 0 15px 15px 15px;
+    margin-bottom: .5rem;
+  }
+
+  .searchCategory__item {
+    width: 100%;
+    display: grid;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .search_item {
+      width: 100%;
+      height: 270px;
+  }
+
+  .search_item img {
+      width: 100%;
+      height: 130px;
+  }
+}
