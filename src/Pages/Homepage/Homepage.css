@@ -149,7 +149,7 @@
 
   .products__wrapper .item {
     width: 100%;
-    height: 252px;
+    height: 270px;
     display: grid;
     justify-content: space-between;
     border-left: 1px solid #e6e6e6;
@@ -161,6 +161,16 @@
     height: 130px;
     object-fit: cover;
     object-position: center;
+  }
+
+  .item__name {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 0.75rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 }
 
