@@ -23,7 +23,7 @@
 .search__icon {
   width: 25px;
   height: 25px;
-  fill: #999;
+  fill: #e5e5e5;
 }
 
 .homepage__section {
@@ -80,8 +80,8 @@
   width: 100%;
   display: flex;
   overflow-x: scroll;
-  border-top: 1px solid #999;
-  border-bottom: 1px solid #999;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .products__wrapper .item {
@@ -89,7 +89,7 @@
   height: 352px;
   display: grid;
   justify-content: space-between;
-  border-left: 1px solid #999;
+  border-left: 1px solid #e5e5e5;
   /* border-right: px solid #e6e6e6; */
 }
 
@@ -124,13 +124,13 @@
 .homeproducts__item__icon {
   width: 18px;
   height: 18px;
-  fill: #999;
+  fill: #e5e5e5;
 }
 
 .homeproducts__lowest {
   font-size: 10px;
   line-height: 14px;
-  color: #999;
+  color: #e5e5e5;
 }
 
 .homeproducts__price {
@@ -161,7 +161,7 @@
     height: 270px;
     display: grid;
     justify-content: space-between;
-    border-left: 1px solid #999;
+    border-left: 1px solid #e5e5e5;
     /* border-right: px solid #e6e6e6; */
   }
 
@@ -288,7 +288,7 @@
 }
 
 .product-title:hover {
-  color: #999111;
+  color: #e5e5e5111;
   opacity: 0.7;
   transition: all ease 0.3s;
 

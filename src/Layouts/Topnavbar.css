@@ -48,7 +48,7 @@
 }
 
 .modal-header {
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #e5e5e5;
   padding: 10px 20px;
   margin-bottom: 10px;
 }
@@ -87,7 +87,7 @@
   font-size: 12px;
   font-weight: 300;
   margin-top: 2px;
-  color: #999;
+  color: #e5e5e5;
 }
 
 .bottomsheet__icon_name {
