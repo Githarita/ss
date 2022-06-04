@@ -47,7 +47,7 @@ function Topnavbar() {
         <div className="bottomsheet__body">
           <div className="bottomrec"></div>
           <div className="bottomsheet__content">
-            <div class="modal-header">
+            <div className="modal-header">
               <p className="bottomsheet__username">Emmanuel Adeyemi</p>
               <p className="bottomsheet__linkname">@yemicodes</p>
             </div>
@@ -65,7 +65,7 @@ function Topnavbar() {
               </svg>
               <p className="bottomsheet__icon_name">Following</p>
             </div>
-            <div class="modal-body">
+            <div className="modal-body">
               <svg
                 className="bottomsheet__icon"
                 viewBox="0 0 15 15"
@@ -79,7 +79,7 @@ function Topnavbar() {
               </svg>
               <p className="bottomsheet__icon_name">News</p>
             </div>
-            <div class="modal-body">
+            <div className="modal-body">
               <svg
                 className="bottomsheet__icon"
                 viewBox="0 0 15 15"
