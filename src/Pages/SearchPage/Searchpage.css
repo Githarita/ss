@@ -48,13 +48,16 @@
 }
 @media screen and (max-width: 500px) {
   .searchcategory__wrapper {
+      
+      position: fixed;
+      top: 60px;
+      background-color: #fff;
     width: 100%;
     display: flex;
     gap: 1rem;
     overflow-x: scroll;
-    border-bottom: 2px solid #e6e6e6;
-    padding: 15px 15px 15px 15px;
-    margin-bottom: .5rem;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 15px;
   }
 
   .searchCategory__item {
@@ -62,6 +65,10 @@
     display: grid;
     font-size: 15px;
     font-weight: 500;
+  }
+
+  .searchproducts {
+      margin-top: 3.3rem
   }
 
   .search_item {
