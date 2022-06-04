@@ -33,6 +33,7 @@
   width: 100%;
   display: grid;
   align-items: start;
+  padding-bottom: 6rem;
 }
 
 .letsee {
@@ -44,6 +45,10 @@
   display: flex;
   gap: 0.5rem;
   overflow-x: scroll;
+}
+
+.homeads {
+  margin-top: 1rem;
 }
 
 .homepage__advert img {
