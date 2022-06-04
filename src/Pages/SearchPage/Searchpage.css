@@ -50,13 +50,13 @@
   .searchcategory__wrapper {
       
       position: fixed;
-      top: 55px;
+      top: 54px;
       background-color: #fff;
     width: 100%;
     display: flex;
     gap: 1rem;
     overflow-x: scroll;
-    border-bottom: 1px solid #e6e6e6;
+    border-bottom: 2px solid #e6e6e6;
     padding: 15px;
   }
 
@@ -68,7 +68,7 @@
   }
 
   .searchproducts {
-      margin-top: 3.1rem
+      margin-top: 3.0rem
   }
 
   .search_item {
