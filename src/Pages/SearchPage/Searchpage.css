@@ -3,11 +3,11 @@
 } */
 
 .searchpage__section {
-    height: 100vh;
-    overflow-y: scroll;
-    width: 100%;
-    display: grid;
-    align-items: start;
+  height: 100vh;
+  overflow-y: scroll;
+  width: 100%;
+  display: grid;
+  align-items: start;
 }
 .searchcategory__wrapper {
   display: none;
@@ -46,13 +46,12 @@
 }
 @media screen and (max-width: 500px) {
   .searchcategory__wrapper {
-      
-      position: fixed;
-      top: 54px;
-      background-color: #fff;
+    position: fixed;
+    top: 54px;
+    background-color: #fff;
     width: 100%;
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
     overflow-x: scroll;
     border-bottom: 2px solid #e6e6e6;
     padding: 15px;
@@ -69,16 +68,16 @@
   }
 
   .searchproducts {
-      margin-top: 3.0rem
+    margin-top: 3rem;
   }
 
   .search_item {
-      width: 100%;
-      height: 270px;
+    width: 100%;
+    height: 270px;
   }
 
   .search_item img {
-      width: 100%;
-      height: 130px;
+    width: 100%;
+    height: 130px;
   }
 }
