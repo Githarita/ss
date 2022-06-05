@@ -126,6 +126,186 @@ function Searchpage() {
                   </div>
                 </div>
                 <div className="search_item">
+                  <img src={image3} alt="" />
+                  <div className="products__itself">
+                    <p className="item__name">
+                      Nike Air Max luxury brands yellow color with an amazing
+                      height
+                    </p>
+                    <div className="homeproducts__item__content">
+                      <div className="homeproducts__item__priceContent">
+                        <p className="homeproducts__lowest">Lowest Ask</p>
+                        <p className="homeproducts__price">₦60,610</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="search_item">
+                  <img src={image1} alt="" />
+                  <div className="products__itself">
+                    <p className="item__name">
+                      Nike Air Max luxury brands yellow color with an amazing
+                      height
+                    </p>
+                    <div className="homeproducts__item__content">
+                      <div className="homeproducts__item__priceContent">
+                        <p className="homeproducts__lowest">Lowest Ask</p>
+                        <p className="homeproducts__price">₦60,610</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="search_item">
+                  <img src={image2} alt="" />
+                  <div className="products__itself">
+                    <p className="item__name">
+                      Nike Air Max luxury brands yellow color with an amazing
+                      height
+                    </p>
+                    <div className="homeproducts__item__content">
+                      <div className="homeproducts__item__priceContent">
+                        <p className="homeproducts__lowest">Lowest Ask</p>
+                        <p className="homeproducts__price">₦60,610</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="search_item">
+                  <img src={image4} alt="" />
+                  <div className="products__itself">
+                    <p className="item__name">
+                      Nike Air Max luxury brands yellow color with an amazing
+                      height
+                    </p>
+                    <div className="homeproducts__item__content">
+                      <div className="homeproducts__item__priceContent">
+                        <p className="homeproducts__lowest">Lowest Ask</p>
+                        <p className="homeproducts__price">₦60,610</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="search_item">
+                  <img src={image3} alt="" />
+                  <div className="products__itself">
+                    <p className="item__name">
+                      Nike Air Max luxury brands yellow color with an amazing
+                      height
+                    </p>
+                    <div className="homeproducts__item__content">
+                      <div className="homeproducts__item__priceContent">
+                        <p className="homeproducts__lowest">Lowest Ask</p>
+                        <p className="homeproducts__price">₦60,610</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="search_item">
+                  <img src={image1} alt="" />
+                  <div className="products__itself">
+                    <p className="item__name">
+                      Nike Air Max luxury brands yellow color with an amazing
+                      height
+                    </p>
+                    <div className="homeproducts__item__content">
+                      <div className="homeproducts__item__priceContent">
+                        <p className="homeproducts__lowest">Lowest Ask</p>
+                        <p className="homeproducts__price">₦60,610</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="search_item">
+                  <img src={image2} alt="" />
+                  <div className="products__itself">
+                    <p className="item__name">
+                      Nike Air Max luxury brands yellow color with an amazing
+                      height
+                    </p>
+                    <div className="homeproducts__item__content">
+                      <div className="homeproducts__item__priceContent">
+                        <p className="homeproducts__lowest">Lowest Ask</p>
+                        <p className="homeproducts__price">₦60,610</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="search_item">
+                  <img src={image4} alt="" />
+                  <div className="products__itself">
+                    <p className="item__name">
+                      Nike Air Max luxury brands yellow color with an amazing
+                      height
+                    </p>
+                    <div className="homeproducts__item__content">
+                      <div className="homeproducts__item__priceContent">
+                        <p className="homeproducts__lowest">Lowest Ask</p>
+                        <p className="homeproducts__price">₦60,610</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="search_item">
+                  <img src={image3} alt="" />
+                  <div className="products__itself">
+                    <p className="item__name">
+                      Nike Air Max luxury brands yellow color with an amazing
+                      height
+                    </p>
+                    <div className="homeproducts__item__content">
+                      <div className="homeproducts__item__priceContent">
+                        <p className="homeproducts__lowest">Lowest Ask</p>
+                        <p className="homeproducts__price">₦60,610</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="search_item">
+                  <img src={image1} alt="" />
+                  <div className="products__itself">
+                    <p className="item__name">
+                      Nike Air Max luxury brands yellow color with an amazing
+                      height
+                    </p>
+                    <div className="homeproducts__item__content">
+                      <div className="homeproducts__item__priceContent">
+                        <p className="homeproducts__lowest">Lowest Ask</p>
+                        <p className="homeproducts__price">₦60,610</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="search_item">
+                  <img src={image2} alt="" />
+                  <div className="products__itself">
+                    <p className="item__name">
+                      Nike Air Max luxury brands yellow color with an amazing
+                      height
+                    </p>
+                    <div className="homeproducts__item__content">
+                      <div className="homeproducts__item__priceContent">
+                        <p className="homeproducts__lowest">Lowest Ask</p>
+                        <p className="homeproducts__price">₦60,610</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="search_item">
+                  <img src={image4} alt="" />
+                  <div className="products__itself">
+                    <p className="item__name">
+                      Nike Air Max luxury brands yellow color with an amazing
+                      height
+                    </p>
+                    <div className="homeproducts__item__content">
+                      <div className="homeproducts__item__priceContent">
+                        <p className="homeproducts__lowest">Lowest Ask</p>
+                        <p className="homeproducts__price">₦60,610</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="search_item">
                   <img src={image5} alt="" />
                   <div className="products__itself">
                     <p className="item__name">
