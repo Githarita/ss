@@ -14,6 +14,8 @@ function Topsearchnavbar() {
 
   const closeModal = () => {
     setDisplay("none");
+    setSortby("not-active");
+    setProductcat("not-active");
   };
 
   return (
