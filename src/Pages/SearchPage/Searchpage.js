@@ -42,7 +42,7 @@ function Searchpage() {
               <div className="searchCategory__item">Sneaker</div>
               <div className="searchCategory__item">Apparel</div>
               <div className="searchCategory__item">Electronics</div>
-              <div className="searchCategory__item">Collectible</div>
+              <div className="searchCategory__item">Collectibles</div>
               <div className="searchCategory__item">Bags</div>
               <div className="searchCategory__item">Accessories</div>
               <div className="searchCategory__item">NFTs</div>
