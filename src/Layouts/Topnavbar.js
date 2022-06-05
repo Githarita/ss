@@ -5,7 +5,6 @@ import "./Layout.css";
 import "./Topnavbar.css";
 function Topnavbar() {
   const [openDisplay, setDisplay] = useState("none");
-  
 
   const openModal = () => {
     setDisplay("block");
@@ -40,13 +39,9 @@ function Topnavbar() {
           </svg>
         </div>
       </div>
-      <div
-        className="bottomsheet"
-        style={{ display: `${openDisplay}` }}
-        onClick={() => closeModal()}
-      >
+      <div className="bottomsheet" style={{ display: `${openDisplay}` }}>
         <div className="bottomsheet__body">
-          <div className="bottomrec"></div>
+          <div className="bottomrec" onClick={() => closeModal()}></div>
           <div className="bottomsheet__content">
             <div className="modal-header">
               <p className="bottomsheet__username">Emmanuel Adeyemi</p>
