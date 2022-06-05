@@ -1,9 +1,9 @@
 .topsearchnavbar__body {
-    padding: 8px 18px;
-    display: grid;
-    align-items: center;
-    grid-template-columns: min-content auto min-content;
-    gap: 1rem;
+  padding: 8px 18px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: min-content auto min-content;
+  gap: 1rem;
 }
 
 .searchnavbar__form {
@@ -35,12 +35,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 1.5rem 0;
+  margin: 1rem 0;
 }
 
 .bottomsheetsortlist {
   display: flex;
-  gap: .5rem;
+  gap: 0.5rem;
   flex-wrap: wrap;
   padding: 15px 15px;
 }
@@ -49,7 +49,6 @@
   font-size: 14px;
   font-weight: 500;
 }
-
 
 .btsorlist {
   font-size: 13px;
