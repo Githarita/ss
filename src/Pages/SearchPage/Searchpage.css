@@ -8,7 +8,6 @@
     width: 100%;
     display: grid;
     align-items: start;
-    padding-bottom: 6rem;
 }
 .searchcategory__wrapper {
   display: none;
@@ -21,7 +20,6 @@
   width: 100%;
   display: grid;
   align-items: start;
-  padding-bottom: 6rem;
 }
 
 .search__see {
