@@ -7,15 +7,46 @@ function Topsearchnavbar() {
   const [openDisplay, setDisplay] = useState("none");
   const [sortby, setSortby] = useState("not-active");
   const [productcat, setProductcat] = useState("not-active");
+  const [sortprice, setSortprice] = useState("not-active");
+  const [sortgender, setSortgender] = useState("not-active");
 
   const openModal = () => {
     setDisplay("block");
+  };
+
+  const sortBy = () => {
+    setSortby("active");
+    setProductcat("not-active");
+    setSortgender("not-active");
+    setSortprice("not-active");
+  };
+  const productCat = () => {
+    setProductcat("active");
+    setSortby("not-active");
+
+    setSortgender("not-active");
+    setSortprice("not-active");
+  };
+  const sortPrice = () => {
+    setSortprice("active");
+    setSortby("not-active");
+    setProductcat("not-active");
+    setSortgender("not-active");
+  };
+  const sortGender = () => {
+    setSortgender("active");
+    setSortby("not-active");
+    setProductcat("not-active");
+
+    setSortprice("not-active");
   };
 
   const closeModal = () => {
     setDisplay("none");
     setSortby("not-active");
     setProductcat("not-active");
+    setSortprice("not-active");
+    setSortgender("not-active");
   };
 
   return (
@@ -67,10 +98,7 @@ function Topsearchnavbar() {
           <div className="bottomrec" onClick={() => closeModal()}></div>
           <div className="bottomsheet__content">
             {sortby === "not-active" ? (
-              <div
-                className="bottomsheetsort"
-                onClick={() => setSortby("active")}
-              >
+              <div className="bottomsheetsort" onClick={() => sortBy()}>
                 <p className="btssort">Sort By</p>
                 <svg
                   width="19"
@@ -126,10 +154,7 @@ function Topsearchnavbar() {
               </div>
             )}
             {productcat === "not-active" ? (
-              <div
-                className="bottomsheetsort"
-                onClick={() => setProductcat("active")}
-              >
+              <div className="bottomsheetsort" onClick={() => productCat()}>
                 <p className="btssort">Product Category</p>
                 <svg
                   width="19"
@@ -178,6 +203,104 @@ function Topsearchnavbar() {
                 <p className="btsorlist">Beauty</p>
                 <p className="btsorlist">Bags</p>
                 <p className="btsorlist">NFTs</p>
+              </div>
+            )}
+            {sortprice === "not-active" ? (
+              <div className="bottomsheetsort" onClick={() => sortPrice()}>
+                <p className="btssort">Price</p>
+                <svg
+                  width="19"
+                  height="19"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.18179 6.18181C4.35753 6.00608 4.64245 6.00608 4.81819 6.18181L7.49999 8.86362L10.1818 6.18181C10.3575 6.00608 10.6424 6.00608 10.8182 6.18181C10.9939 6.35755 10.9939 6.64247 10.8182 6.81821L7.81819 9.81821C7.73379 9.9026 7.61934 9.95001 7.49999 9.95001C7.38064 9.95001 7.26618 9.9026 7.18179 9.81821L4.18179 6.81821C4.00605 6.64247 4.00605 6.35755 4.18179 6.18181Z"
+                    fill="currentColor"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                  ></path>
+                </svg>
+              </div>
+            ) : (
+              <div
+                className="bottomsheetsort"
+                onClick={() => setSortprice("not-active")}
+              >
+                <p className="btssort">Product Category</p>
+                <svg
+                  width="19"
+                  height="19"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.18179 8.81819C4.00605 8.64245 4.00605 8.35753 4.18179 8.18179L7.18179 5.18179C7.26618 5.0974 7.38064 5.04999 7.49999 5.04999C7.61933 5.04999 7.73379 5.0974 7.81819 5.18179L10.8182 8.18179C10.9939 8.35753 10.9939 8.64245 10.8182 8.81819C10.6424 8.99392 10.3575 8.99392 10.1818 8.81819L7.49999 6.13638L4.81819 8.81819C4.64245 8.99392 4.35753 8.99392 4.18179 8.81819Z"
+                    fill="currentColor"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                  ></path>
+                </svg>
+              </div>
+            )}
+            {sortprice === "active" && (
+              <div className="bottomsheetsortlist">
+                <p className="btsorlist">Under ₦50,000</p>
+                <p className="btsorlist">₦50,000 - ₦100,000</p>
+                <p className="btsorlist">₦100,000 - ₦250,000</p>
+                <p className="btsorlist">₦250,000 - ₦500,000</p>
+                <p className="btsorlist">₦500,000 - ₦1,000,000</p>
+                <p className="btsorlist">₦1,000,000 +</p>
+              </div>
+            )}
+            {sortgender === "not-active" ? (
+              <div className="bottomsheetsort" onClick={() => sortGender()}>
+                <p className="btssort">Genders</p>
+                <svg
+                  width="19"
+                  height="19"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.18179 6.18181C4.35753 6.00608 4.64245 6.00608 4.81819 6.18181L7.49999 8.86362L10.1818 6.18181C10.3575 6.00608 10.6424 6.00608 10.8182 6.18181C10.9939 6.35755 10.9939 6.64247 10.8182 6.81821L7.81819 9.81821C7.73379 9.9026 7.61934 9.95001 7.49999 9.95001C7.38064 9.95001 7.26618 9.9026 7.18179 9.81821L4.18179 6.81821C4.00605 6.64247 4.00605 6.35755 4.18179 6.18181Z"
+                    fill="currentColor"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                  ></path>
+                </svg>
+              </div>
+            ) : (
+              <div
+                className="bottomsheetsort"
+                onClick={() => setSortgender("not-active")}
+              >
+                <p className="btssort">Genders</p>
+                <svg
+                  width="19"
+                  height="19"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.18179 8.81819C4.00605 8.64245 4.00605 8.35753 4.18179 8.18179L7.18179 5.18179C7.26618 5.0974 7.38064 5.04999 7.49999 5.04999C7.61933 5.04999 7.73379 5.0974 7.81819 5.18179L10.8182 8.18179C10.9939 8.35753 10.9939 8.64245 10.8182 8.81819C10.6424 8.99392 10.3575 8.99392 10.1818 8.81819L7.49999 6.13638L4.81819 8.81819C4.64245 8.99392 4.35753 8.99392 4.18179 8.81819Z"
+                    fill="currentColor"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                  ></path>
+                </svg>
+              </div>
+            )}
+            {sortgender === "active" && (
+              <div className="bottomsheetsortlist">
+                <p className="btsorlist">Men</p>
+                <p className="btsorlist">Women</p>
+                <p className="btsorlist">Kids</p>
+                <p className="btsorlist">Unisex</p>
               </div>
             )}
           </div>
