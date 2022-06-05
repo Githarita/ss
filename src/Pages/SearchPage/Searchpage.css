@@ -26,7 +26,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   grid-gap: 0.5rem;
-  padding: 0 15px 0 15px;
+  padding: 20px 15px 0 15px;
 }
 
 .search_item {
