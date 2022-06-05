@@ -30,3 +30,30 @@
   width: 100%;
 }
 
+.bottomsheetsort {
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottomsheetsortlist {
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+  padding: 15px 15px;
+}
+
+.btssort {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+.btsorlist {
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid #e5e5e5;
+  padding: 6px 10px;
+  border-radius: 9999px;
+}
