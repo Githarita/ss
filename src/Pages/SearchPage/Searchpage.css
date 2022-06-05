@@ -61,8 +61,11 @@
   .searchCategory__item {
     width: 100%;
     display: grid;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #e5e5e5;
+    padding: 6px 10px;
+    border-radius: 9999px;
   }
 
   .searchproducts {
