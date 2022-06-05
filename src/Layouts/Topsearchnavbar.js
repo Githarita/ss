@@ -12,9 +12,9 @@ function Topsearchnavbar() {
     setDisplay("block");
   };
 
-  // const closeModal = () => {
-  //   setDisplay("none");
-  // };
+  const closeModal = () => {
+    setDisplay("none");
+  };
 
   return (
     <>
@@ -62,7 +62,7 @@ function Topsearchnavbar() {
       </div>
       <div className="bottomsheet" style={{ display: `${openDisplay}` }}>
         <div className="bottomsheet__body">
-          <div className="bottomrec"></div>
+          <div className="bottomrec" onClick={() => closeModal()}></div>
           <div className="bottomsheet__content">
             {sortby === "not-active" ? (
               <div
