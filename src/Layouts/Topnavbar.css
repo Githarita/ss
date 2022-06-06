@@ -20,7 +20,7 @@
 }
 
 .topnav__iconn:hover {
-  background-color: #1a8cd888;
+  background-color: #e5e5e5;
   border-radius: 9999px;
 }
 .bottomsheet__body {
@@ -41,14 +41,14 @@
 .bottomrec {
   width: 40px;
   height: 5px;
-  background-color: #1a8cd888;
+  background-color: #e5e5e5;
   border-radius: 9999px;
   justify-self: center;
   margin-top: 10px;
 }
 
 .modal-header {
-  border-bottom: 1px solid #1a8cd888;
+  border-bottom: 1px solid #e5e5e5;
   padding: 10px 20px;
   margin-bottom: 10px;
 }
@@ -63,7 +63,7 @@
 }
 
 .modal-body:hover {
-  background-color: #1a8cd888;
+  background-color: #e5e5e5;
 }
 
 .bottomsheet__icon {

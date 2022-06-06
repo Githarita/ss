@@ -7,8 +7,8 @@
 }
 
 .bodylayout {
-  border-right: 1px solid #1a8cd888;
-  border-left: 1px solid #1a8cd888;
+  border-right: 1px solid #e5e5e5;
+  border-left: 1px solid #e5e5e5;
 }
 /* 
 .sidebar {
@@ -70,7 +70,7 @@
     display: block;
     position: fixed;
     background-color: #ffffff;
-    border-bottom: 1px solid #1a8cd888;
+    border-bottom: 1px solid #e5e5e5;
     width: 100%;
     top: 0;
     transition-timing-function: ease-in;
@@ -81,7 +81,7 @@
     display: none;
     position: fixed;
     background-color: #ffffff;
-    border-bottom: 1px solid #1a8cd888;
+    border-bottom: 1px solid #e5e5e5;
     width: 100%;
     top: 0;
     transition-timing-function: ease-in;
@@ -102,7 +102,7 @@
     position: fixed;
     background-color: #ffffff;
     display: inline-block;
-    border-top: 1px solid #1a8cd888;
+    border-top: 1px solid #e5e5e5;
     width: 100%;
     bottom: 0;
   }
