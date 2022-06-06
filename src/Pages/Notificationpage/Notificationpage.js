@@ -33,6 +33,9 @@ function Notificationpage() {
                 Your Ask on Nike Air Zoom Terra for ₦70,000.00 have been found.
                 and that is how we see it. so don't give us trouble when the
                 notifications are coming in
+                Your Ask on Nike Air Zoom Terra for ₦70,000.00 have been found.
+                and that is how we see it. so don't give us trouble when the
+                notifications are coming in
               </p>
             </div>
           </div>
