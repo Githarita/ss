@@ -1,0 +1,39 @@
+/* #1a8cd8 */
+
+@media screen and (max-width: 500px) {
+  .notificationbody {
+    display: grid;
+    gap: 0.5rem;
+    padding: 0px 15px;
+  }
+
+  .notificationitem {
+    padding: 8px 10px;
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+  }
+
+  .notificationitem img {
+    height: 50px;
+    width: 20%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .notification_typography {
+    width: 80%;
+    padding: 0 10px;
+  }
+
+  .notificationheader {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: .2rem;
+  }
+
+  .notificationparagraph {
+      font-size: 12px;
+  }
+}
