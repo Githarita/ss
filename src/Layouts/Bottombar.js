@@ -47,7 +47,7 @@ function Bottombar() {
             ></path>
           </svg>
         </div> */}
-        <div className="bottombar-item">
+        <Link to="/notification" className="bottombar-item">
           <svg
             className="bottombar__icon"
             viewBox="0 0 15 15"
@@ -59,7 +59,7 @@ function Bottombar() {
               clipRule="evenodd"
             ></path>
           </svg>
-        </div>
+        </Link>
         <div className="bottombar-item">
           <svg
             className="bottombar__icon"
