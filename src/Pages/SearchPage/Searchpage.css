@@ -54,7 +54,7 @@
     display: flex;
     gap: 0.5rem;
     overflow-x: scroll;
-    padding: 15px;
+    padding: 10px;
     border-bottom: 2px solid #e5e5e5;
   }
 
@@ -69,7 +69,7 @@
   }
 
   .searchproducts {
-    margin-top: 3.1rem;
+    margin-top: 2.5rem;
   }
 
   .search_item {
