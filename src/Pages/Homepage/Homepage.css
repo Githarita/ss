@@ -3,7 +3,7 @@
 }
 
 .search__form {
-  background-color: #f5f5f5;
+  background-color: #1a8cd888;
   border-radius: 9999px;
   padding: 0.5rem;
   display: flex;
@@ -23,7 +23,7 @@
 .search__icon {
   width: 25px;
   height: 25px;
-  fill: #f5f5f5;
+  fill: #1a8cd888;
 }
 
 .homepage__section {
@@ -88,7 +88,7 @@
   height: 352px;
   display: grid;
   justify-content: space-between;
-  border: 1px solid #f5f5f5;
+  border: 1px solid #1a8cd888;
   border-radius: 3px;
   /* border-right: px solid #e6e6e6; */
 }
@@ -125,7 +125,7 @@
 .homeproducts__item__icon {
   width: 18px;
   height: 18px;
-  fill: #f5f5f5;
+  fill: #1a8cd888;
 }
 
 .homeproducts__lowest {
@@ -288,7 +288,7 @@
 }
 
 .product-title:hover {
-  color: #f5f5f5111;
+  color: #1a8cd888 111;
   opacity: 0.7;
   transition: all ease 0.3s;
 
