@@ -54,7 +54,6 @@
     display: flex;
     gap: 0.5rem;
     overflow-x: scroll;
-    border-bottom: 1px solid #e5e5e5;
     padding: 15px;
   }
 
