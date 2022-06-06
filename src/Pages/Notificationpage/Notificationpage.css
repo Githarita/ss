@@ -2,6 +2,7 @@
 
 @media screen and (max-width: 500px) {
   .notificationbody {
+    margin-top: -3.2rem;
     display: grid;
     gap: 0.5rem;
     padding: 0px 15px;

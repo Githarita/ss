@@ -3,7 +3,6 @@ import Body from "../../Layouts/Body";
 import Bottombar from "../../Layouts/Bottombar";
 import Mainlayout from "../../Layouts/Mainlayout";
 import Sidebar from "../../Layouts/Sidebar";
-import Topnavbar from "../../Layouts/Topnavbar";
 import "./Notificationpage.css";
 import image1 from "../../assets/shoe1.png";
 import image2 from "../../assets/shoe2.png";
@@ -12,7 +11,7 @@ import image3 from "../../assets/shoe3.png";
 function Notificationpage() {
   return (
     <Mainlayout>
-      <Topnavbar />
+      {/* <Topnavbar /> */}
       <Sidebar />
       <Body>
         <div className="notificationbody">
